@@ -13,6 +13,8 @@
 /* ANDREWS ADDITIONS */
 body {
     text-align: center;
+    padding: 10px 0 0 0;
+    margin: 0;
 }
 
 h1 {
@@ -20,20 +22,60 @@ h1 {
     font-style: normal;
     font-weight: 800;
     font-size: 300%;
+    margin: 0;
 }
 
 h2 {
-    font-family: "helvetica";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 100%;
-}
-
-p {
-    font-family: "helvetica;
+    font-family: "courier";
     font-style: normal;
     font-weight: lighter;
     font-size: 100%;
+    display: inline-block;
+    margin: 0;
+}
+
+p {
+    font-family: "helvetica";
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100%;
+    /*margin: 0;*/
+}
+
+.wrap{
+    max-width: 600px;
+    margin:150px auto;
+}
+
+.type-wrap{
+    margin:10px auto;
+    padding:20px;
+    background:#f0f0f0;
+    border-radius:5px;
+    border:#CCC 1px solid;
+}
+
+/* typed.js blinking cursor */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
 
 

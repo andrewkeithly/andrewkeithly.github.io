@@ -18,6 +18,7 @@
         <!-- TypeKit Fonts -->
         <script src="https://use.typekit.net/pjy7zpc.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -26,17 +27,29 @@
 
         <!-- Add your site or application content here -->
         <h1><a href="https://andrewkeithly.github.io/"></a>Andrew Keithly</h1>
-        <h2>Computer Science Student @ The Unviersity of Houston</h2>
+        <h2 id="typed_header"></h2>
         <p>
             <a href="https://www.linkedin.com/in/andrewkeithly">LinkedIn</a> | 
             <a href="https://github.com/andrewkeithly">GitHub</a> | 
             <a href="mailto:andrew.keithly@gmail.com">Contact</a>
         </p>
-
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+        <!-- typed_header using typed.js in /js/plugins.js -->
+        <script>
+            $(function(){
+                $("#typed_header").typed({
+                    strings: ["Computer Science student @ <strong>University of Houston</strong>."],
+                    typeSpeed: 30,
+                    showCursor: true,
+                    cursorChar: "|",
+                    contentType: 'html', // or text
+                });
+            });
+        </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

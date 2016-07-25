@@ -1,4 +1,6 @@
 # Andrew Keithly's GitHub Page
 This is Andrew Keithly's personal webpage hosted on GitHub.
 
-###### This page was created in part through [HTML5 Boilerplate](https://html5boilerplate.com/) (also on [GitHub](https://github.com/h5bp/html5-boilerplate)).
+###### This page was created in part through the use of the following open-source tools:
+- [HTML5 Boilerplate](https://html5boilerplate.com/) (also on [GitHub](https://github.com/h5bp/html5-boilerplate))
+- [Typed.js](http://www.mattboldt.com/demos/typed-js/) (also on [GitHub](https://github.com/mattboldt/typed.js/))

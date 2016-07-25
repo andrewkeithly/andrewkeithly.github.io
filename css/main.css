@@ -10,6 +10,35 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* ANDREWS ADDITIONS */
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: "bungee",sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 300%;
+}
+
+h2 {
+    font-family: "helvetica";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100%;
+}
+
+p {
+    font-family: "helvetica;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+
+/* END ANDREWS ADDITIONS */
+
 html {
     color: #222;
     font-size: 1em;

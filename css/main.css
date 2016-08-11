@@ -43,7 +43,15 @@ h2 {
     margin: 0;
 }
 
-p {
+p{
+    
+}
+
+.about{
+    padding: 0 15%;
+}
+
+.links{
     font-family: "helvetica";
     font-style: normal;
     font-weight: lighter;

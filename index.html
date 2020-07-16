@@ -1,65 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <!-- Add Title Name Here -->
-        <title>Andrew Keithly</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <!-- Add Title Name Here -->
+    <title>Andrew Keithly</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
-        <!-- TypeKit Fonts -->
-        <script src="https://use.typekit.net/pjy7zpc.js"></script>
-        <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- TypeKit Fonts -->
+    <script src="https://use.typekit.net/pjy7zpc.js"></script>
+    <script>
+      try {
+        Typekit.load({ async: true });
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+        your experience.
+      </p>
+    <![endif]-->
 
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+    <!-- Add your site or application content here -->
+    <h1><a href="index.html">Andrew Keithly</a></h1>
+    <div id="typed_header">
+      <h2>Senior Consultant @ <strong>Sogeti CapGemini</strong>.</h2>
+    </div>
+    <span id="typed1"></span>
+    <p class="links">
+      <a href="about.html">About</a> |
+      <a href="https://www.linkedin.com/in/andrewkeithly" target="_blank"
+        >LinkedIn</a
+      >
+      | <a href="https://github.com/andrewkeithly" target="_blank">GitHub</a> |
+      <a href="mailto:andrew.keithly@gmail.com" target="_blank">Contact</a>
+    </p>
+    <div id="typed_projects">
+      <h2>
+        Projects
+      </h2>
+    </div>
+    <span id="typed2"></span>
+    <p class="links">
+      <a href="react-material-dashboard">React Material Dashboard Project</a>
+    </p>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.12.0.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/main.js"></script>
+    <script>
+      var typed1 = new Typed('#typed1', {
+        stringsElement: '#typed_header',
+        typeSpeed: 50,
+        showCursor: false,
+        cursorChar: '｜',
+        fadeOut: true,
+        fadeOutDelay: 500
+      });
 
-        <!-- Add your site or application content here -->
-        <h1><a href="index.html">Andrew Keithly</a></h1>
-        <h2 id="typed_header"></h2>
-        <p class="links">
-            <a href="about.html">About</a> |
-            <a href="https://www.linkedin.com/in/andrewkeithly" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/andrewkeithly" target="_blank">GitHub</a> | 
-            <a href="mailto:andrew.keithly@gmail.com" target="_blank">Contact</a>
-        </p>
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+      var typed2 = new Typed('#typed2', {
+        stringsElement: '#typed_projects',
+        typeSpeed: 60,
+        startDelay: 3000,
+        showCursor: false,
+        cursorChar: '｜'
+      });
+    </script>
 
-        <!-- typed_header using typed.js in /js/plugins.js -->
-        <script>
-            $(function(){
-                $("#typed_header").typed({
-                    strings: ["Senior Consultant @ <strong>Sogeti CapGemini</strong>."],
-                    typeSpeed: 30,
-                    showCursor: true,
-                    cursorChar: "|",
-                    contentType: 'html', // or text
-                });
-            });
-        </script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] ||
+          (b[l] = function () {
+            (b[l].q = b[l].q || []).push(arguments);
+          });
+        b[l].l = +new Date();
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = 'https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r);
+      })(window, document, 'script', 'ga');
+      ga('create', 'UA-XXXXX-X', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
